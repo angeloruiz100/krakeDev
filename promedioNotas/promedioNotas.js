@@ -7,11 +7,17 @@ calcularPromedioNotas= function(){
     promedio=calcularPromedio(float1,float2,float3);
     resultadoFormateado=promedio.toFixed(2);
     cambiarTexto("lblResultado",resultadoFormateado);
-    if(resultadoFormateado>8 && resultadoFormateado<=10){
+    if(resultadoFormateado<5 && resultadoFormateado>0){
+        cambiarImagen("lblImagen","f.gif");
+        cambiarTexto("mensaje","Reprobado");
+    }else if(resultadoFormateado>=5 && resultadoFormateado<=8){
+        cambiarTexto("mensaje","Buen trabajo");
+        cambiarImagen("lblImagen","excelente.gif");
+    }else if( resultadoFormateado>8 && resultadoFormateado<=10){
         cambiarTexto("mensaje","Excelente");
         cambiarImagen("lblImagen","excellent.gif");
     }else{
-        cambiarImagen("lblImagen","f.gif");
-        cambiarTexto("mensaje","Reprobado");
+        cambiarTexto("mensaje","Datos incorrectos ");
+        cambiarImagen("lblImagen","duck.gif");
     }
 }
