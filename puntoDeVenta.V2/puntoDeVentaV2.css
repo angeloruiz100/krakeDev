@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(240, 248, 255, 0.9);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logoEscuela {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ingresoDatos {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    justify-content:start;
+}
+
+.cajaTexto {
+    font-size: 18px;
+    padding-bottom: 5px;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    margin: 10px;
+    flex: 1;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.estiloBoton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.estiloBoton:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+.areaResultado {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.texto{
+    margin-top: 10px ;
+
+}
+.texto2{
+    margin-top: 10px ;
+    margin-right: 20px;
+}
+.error{
+    color:red;
+    font-style: italic;
+    font-size: 16px;
+}
