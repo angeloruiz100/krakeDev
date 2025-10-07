@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="placas.js"></script>
+    <script src="serviciosPlacas.js"></script>
+    <script src="utilitarios.js"></script>
+    <script src="utilitariosCadenas.js"></script>
+    <link href="placas.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="contenido">
+        <div class="logoEscuela">
+            <img src="./imagenes/logoKrakeDev.png" width="80%" />
+        </div>
+        <div class="cuerpo">
+            <div class="titulo">
+                <h1>Ingrese la Placa</h1>
+            </div>
+            <div class="cajaTexto">
+                <input type="text" class="estiloCaja" id="cajaTexto" />
+            </div>
+            <div class="boton">
+                <input type="button" class="estiloBoton" value="VALIDAR" onclick="validarPlaca();"/>
+                <input type="button" class="estiloBoton2" value="LIMPIAR" onclick="limpiar();"/>
+            </div>
+        </div>
+        <div class="resultado">
+                <h3 id="lblResultado" class="texto"></h3>
+                <h3 id="lblError"class="texto"></h3>
+                <h3 id="lblError2"class="texto"></h3>
+                
+        </div>
+        <div class="logoPlacas">
+            <img src="./imagenes/descarga.jpeg" width="80%" />
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    background-image: url(./imagenes/imagenesPlaca.jpg);
+    background-repeat: repeat;
+    background-size: cover; 
+}
+.contenido{
+    background-color: rgba(209, 17, 17, 0.575);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex: 1;
+    margin-top: 200px;
+}
+.logoEscuela{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+.cuerpo{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo{
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.resultado{
+    display: flex;
+    flex:1 ;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+.logoPlacas{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin:10px;
+}
+.cajaTexto{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.boton{
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.estiloBoton{
+    font-size: 15px;
+    background-color: chartreuse;
+}
+
+.estiloCaja{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.estiloBoton2{
+    font-size: 15px;
+    background-color: violet;
+    margin-left: 10px;
+}
