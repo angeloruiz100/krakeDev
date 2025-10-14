@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    background-image: url(./imagenes/gaming.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo1{
+    display: flex;
+    flex: 1;
+    background-color: aqua;
+    justify-content: center;
+}
+.img1{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.img2{
+    display: flex;
+    flex:1;
+    justify-content: center;
+
+}
+.contendor1{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.resultado{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    justify-content: center;
+}
+.resultado2{
+    justify-content: center;
+}
